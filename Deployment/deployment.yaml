@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: openas-api
+  namespace: dev
+  labels:
+    app: openas-api
+  
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: openas-api
+  template:
+    metadata:
+      name: openas-api
+      labels:
+        app: openas-api
+    spec:
+      containers:
+        - name: openas-api
+          image: "usmansheikh/openas:v3"
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 9085
+          volumeMounts:
+          - mountPath: "/usr/src/openas2/Runtime/data"
+            name: volume
+      nodeSelector:
+        "beta.kubernetes.io/os": linux
+      
+      volumes:
+      - name: volume
+        persistentVolumeClaim:
+          claimName: azurefile

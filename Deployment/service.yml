@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: openas-svc
+  namespace: dev
+  labels:
+    app: openas-svc
+spec:
+  type: LoadBalancer
+  selector:
+    app: openas-api
+  ports:
+    - port: 9085
+      protocol: TCP
+      targetPort: 9085

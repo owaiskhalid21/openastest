@@ -1,0 +1,84 @@
+2019-04-02 19:40:52.548 FINE XMLSession: Loading command processor(s)...
+2019-04-02 19:40:52.747 FINE XMLSession: Loading processor modules...
+2019-04-02 19:40:52.763 FINE IOUtil: Created directory C:\OpenAS2Server\bin\..\config\..\data\toAny
+2019-04-02 19:40:52.763 FINE IOUtil: Created directory C:\OpenAS2Server\bin\..\config\..\data\toAny\error
+2019-04-02 19:40:52.763 FINE IOUtil: Created directory C:\OpenAS2Server\bin\..\config\..\data\pendinginfoMDN3
+2019-04-02 19:40:52.763 FINE IOUtil: Created directory C:\OpenAS2Server\bin\..\config\..\data\pendingMDN3
+2019-04-02 19:40:52.779 FINE IOUtil: Created directory C:\OpenAS2Server\bin\..\config\..\data\toPartnerA
+2019-04-02 19:40:52.779 FINE IOUtil: Created directory C:\OpenAS2Server\bin\..\config\..\data\toPartnerA\error
+2019-04-02 19:40:52.779 FINE IOUtil: Created directory C:\OpenAS2Server\bin\..\config\..\data\toPartnerB
+2019-04-02 19:40:52.779 FINE IOUtil: Created directory C:\OpenAS2Server\bin\..\config\..\data\toPartnerB\error
+2019-04-02 19:40:52.795 FINE OpenAS2Server: Shutdown hook registered.
+2019-04-02 19:40:52.795 FINE OpenAS2Server: Starting OpenAS2 Server v2.9.0...
+2019-04-02 19:40:52.795 FINE DefaultProcessor: AS2DirectoryPollingModule started.
+2019-04-02 19:40:52.795 FINE DefaultProcessor: AS2DirectoryPollingModule started.
+2019-04-02 19:40:52.795 FINE DefaultProcessor: AS2DirectoryPollingModule started.
+2019-04-02 19:40:52.982 FINE DefaultProcessor: DbTrackingModule started.
+2019-04-02 19:40:52.982 FINE DefaultProcessor: AS2ReceiverModule started.
+2019-04-02 19:40:52.982 FINE DefaultProcessor: AS2MDNReceiverModule started.
+2019-04-02 19:40:52.982 FINE DefaultProcessor: DirectoryResenderModule started.
+2019-04-02 19:40:52.982 FINE DefaultProcessor: 7 active module(s) started.
+2019-04-02 19:40:52.982 FINE OpenAS2Server: OpenAS2 Server v2.9.0 started.
+2019-04-02 19:40:52.982 FINE IOUtil: Created directory C:\OpenAS2Server\bin\..\config\..\data\resend
+2019-04-02 19:43:52.284 FINE AS2ReceiverHandler: incoming connection 0:0:0:0:0:0:0:1 3594
+2019-04-02 19:43:52.285 FINE AS2ReceiverHandler: incoming connection 0:0:0:0:0:0:0:1 3595
+2019-04-02 19:43:52.305 ERROR HTTPUtil: Inbound HTTP request does not provide means to determine data length: GET /
+	Headers: ;;Host==localhost:10080;;Connection==keep-alive;;Upgrade-Insecure-Requests==1;;User-Agent==Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36;;Accept==text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;;Accept-Encoding==gzip, deflate, br;;Accept-Language==en-US,en;q=0.9;;Cookie==.AspNetCore.Antiforgery.MgtnmvwVxQI=CfDJ8J0KrhtAaPpEhYhOnfljj2-7_avO8mumBZI_KHMpVddcIIos55-F-Ba4uehrsGwIOEEyrdavWUoy46D65f1j91S0za-ZcydAX8FQPf0FinTOWTqQnfEIRJFqEOpWrFSsMVUDRPf-63IYa1ulUiUFPqU
+2019-04-02 19:43:52.306 ERROR AS2ReceiverHandler: HTTP connection error on inbound message. [null]
+2019-04-02 19:43:52.310 ERROR java.io.IOException: Content-Length missing and no "Transfer-Encoding" header found to determine how to read message body.
+	at org.openas2.util.HTTPUtil.readData(HTTPUtil.java:250)
+	at org.openas2.processor.receiver.AS2ReceiverHandler.handle(AS2ReceiverHandler.java:99)
+	at org.openas2.processor.receiver.NetModule$ConnectionHandler.run(NetModule.java:202)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-04-02 19:43:52.315 ERROR OpenAS2Exception: Error occurred:: Content-Length missing and no "Transfer-Encoding" header found to determine how to read message body.
+    Sources: {}
+org.openas2.processor.receiver.NetException: Address = /0:0:0:0:0:0:0:1 port = 3594
+	at org.openas2.processor.receiver.AS2ReceiverHandler.handle(AS2ReceiverHandler.java:104)
+	at org.openas2.processor.receiver.NetModule$ConnectionHandler.run(NetModule.java:202)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Content-Length missing and no "Transfer-Encoding" header found to determine how to read message body.
+	at org.openas2.util.HTTPUtil.readData(HTTPUtil.java:250)
+	at org.openas2.processor.receiver.AS2ReceiverHandler.handle(AS2ReceiverHandler.java:99)
+	... 4 more
+2019-04-02 19:43:52.320 ERROR AS2ReceiverHandler: Error receiving message for inbound AS2 request. There is no data. [null]
+org.openas2.OpenAS2Exception: Missing data in AS2 request.
+	at org.openas2.processor.receiver.AS2ReceiverHandler.handle(AS2ReceiverHandler.java:120)
+	at org.openas2.processor.receiver.NetModule$ConnectionHandler.run(NetModule.java:202)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-02 19:43:52.357 ERROR HTTPUtil: Inbound HTTP request does not provide means to determine data length: GET /favicon.ico
+	Headers: ;;Host==localhost:10080;;Connection==keep-alive;;User-Agent==Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36;;Accept==image/webp,image/apng,image/*,*/*;q=0.8;;Referer==http://localhost:10080/;;Accept-Encoding==gzip, deflate, br;;Accept-Language==en-US,en;q=0.9;;Cookie==.AspNetCore.Antiforgery.MgtnmvwVxQI=CfDJ8J0KrhtAaPpEhYhOnfljj2-7_avO8mumBZI_KHMpVddcIIos55-F-Ba4uehrsGwIOEEyrdavWUoy46D65f1j91S0za-ZcydAX8FQPf0FinTOWTqQnfEIRJFqEOpWrFSsMVUDRPf-63IYa1ulUiUFPqU
+2019-04-02 19:43:52.358 ERROR AS2ReceiverHandler: HTTP connection error on inbound message. [null]
+2019-04-02 19:43:52.362 ERROR java.io.IOException: Content-Length missing and no "Transfer-Encoding" header found to determine how to read message body.
+	at org.openas2.util.HTTPUtil.readData(HTTPUtil.java:250)
+	at org.openas2.processor.receiver.AS2ReceiverHandler.handle(AS2ReceiverHandler.java:99)
+	at org.openas2.processor.receiver.NetModule$ConnectionHandler.run(NetModule.java:202)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-04-02 19:43:52.363 ERROR OpenAS2Exception: Error occurred:: Content-Length missing and no "Transfer-Encoding" header found to determine how to read message body.
+    Sources: {}
+org.openas2.processor.receiver.NetException: Address = /0:0:0:0:0:0:0:1 port = 3595
+	at org.openas2.processor.receiver.AS2ReceiverHandler.handle(AS2ReceiverHandler.java:104)
+	at org.openas2.processor.receiver.NetModule$ConnectionHandler.run(NetModule.java:202)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Content-Length missing and no "Transfer-Encoding" header found to determine how to read message body.
+	at org.openas2.util.HTTPUtil.readData(HTTPUtil.java:250)
+	at org.openas2.processor.receiver.AS2ReceiverHandler.handle(AS2ReceiverHandler.java:99)
+	... 4 more
+2019-04-02 19:43:52.365 ERROR AS2ReceiverHandler: Error receiving message for inbound AS2 request. There is no data. [null]
+org.openas2.OpenAS2Exception: Missing data in AS2 request.
+	at org.openas2.processor.receiver.AS2ReceiverHandler.handle(AS2ReceiverHandler.java:120)
+	at org.openas2.processor.receiver.NetModule$ConnectionHandler.run(NetModule.java:202)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)

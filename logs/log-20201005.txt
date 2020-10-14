@@ -1,0 +1,39 @@
+2020-10-05 18:39:01.518 FINE DefaultProcessor: AS2DirectoryPollingModule stopped.
+2020-10-05 18:39:01.533 FINE DefaultProcessor: AS2DirectoryPollingModule stopped.
+2020-10-05 18:39:01.533 FINE DefaultProcessor: AS2DirectoryPollingModule stopped.
+2020-10-05 18:39:01.533 FINE DefaultProcessor: DbTrackingModule stopped.
+2020-10-05 18:39:01.533 FINE DefaultProcessor: AS2ReceiverModule stopped.
+2020-10-05 18:39:01.533 FINE DefaultProcessor: AS2MDNReceiverModule stopped.
+2020-10-05 18:39:01.533 FINE DefaultProcessor: DirectoryResenderModule stopped.
+2020-10-05 18:39:01.549 FINE DefaultProcessor: AS2DirectoryPollingModule stopped.
+2020-10-05 18:39:01.549 FINE DefaultProcessor: 8 active module(s) stopped.
+2020-10-05 18:39:01.549 FINE OpenAS2Server: OpenAS2 has shut down
+
+2020-10-05 18:39:47.877 FINE XMLSession: Loading command processor(s)...
+2020-10-05 18:39:48.148 FINE XMLSession: Loading processor modules...
+2020-10-05 18:39:48.169 FINE IOUtil: Created directory D:\Data\PartnerLink\Docker Work\OpenAS2Server\config\..\data\Outbound\TestAS2
+2020-10-05 18:39:48.171 FINE IOUtil: Created directory D:\Data\PartnerLink\Docker Work\OpenAS2Server\config\..\data\Outbound\TestAS2\errors
+2020-10-05 18:39:48.171 FINE IOUtil: Created directory D:\Data\PartnerLink\Docker Work\OpenAS2Server\config\..\data\Outbound\DelMonteToUSFoods
+2020-10-05 18:39:48.171 FINE IOUtil: Created directory D:\Data\PartnerLink\Docker Work\OpenAS2Server\config\..\data\Outbound\DelMonteToUSFoods\errors
+2020-10-05 18:39:48.171 FINE IOUtil: Created directory D:\Data\PartnerLink\Docker Work\OpenAS2Server\config\..\data\Outbound\DelMonteToPRICECHOPPER
+2020-10-05 18:39:48.171 FINE IOUtil: Created directory D:\Data\PartnerLink\Docker Work\OpenAS2Server\config\..\data\Outbound\DelMonteToPRICECHOPPER\errors
+2020-10-05 18:39:48.171 FINE IOUtil: Created directory D:\Data\PartnerLink\Docker Work\OpenAS2Server\config\..\data\Outbound\DelMonteToDZA
+2020-10-05 18:39:48.171 FINE IOUtil: Created directory D:\Data\PartnerLink\Docker Work\OpenAS2Server\config\..\data\Outbound\DelMonteToDZA\errors
+2020-10-05 18:39:48.171 FINE IOUtil: Created directory D:\Data\PartnerLink\Docker Work\OpenAS2Server\config\..\data\Outbound\DelMonteToKNIGHT
+2020-10-05 18:39:48.171 FINE IOUtil: Created directory D:\Data\PartnerLink\Docker Work\OpenAS2Server\config\..\data\Outbound\DelMonteToKNIGHT\errors
+2020-10-05 18:39:48.191 FINE OpenAS2Server: Shutdown hook registered.
+2020-10-05 18:39:48.192 FINE OpenAS2Server: Starting OpenAS2 Server v2.9.0...
+2020-10-05 18:39:48.192 FINE DefaultProcessor: AS2DirectoryPollingModule started.
+2020-10-05 18:39:48.195 FINE DefaultProcessor: AS2DirectoryPollingModule started.
+2020-10-05 18:39:48.195 FINE DefaultProcessor: AS2DirectoryPollingModule started.
+2020-10-05 18:39:48.366 FINE DefaultProcessor: DbTrackingModule started.
+2020-10-05 18:39:48.372 FINE DefaultProcessor: AS2ReceiverModule started.
+2020-10-05 18:39:48.375 FINE DefaultProcessor: AS2MDNReceiverModule started.
+2020-10-05 18:39:48.376 FINE DefaultProcessor: DirectoryResenderModule started.
+2020-10-05 18:39:48.376 FINE DefaultProcessor: AS2DirectoryPollingModule started.
+2020-10-05 18:39:48.377 FINE DefaultProcessor: AS2DirectoryPollingModule started.
+2020-10-05 18:39:48.378 FINE DefaultProcessor: AS2DirectoryPollingModule started.
+2020-10-05 18:39:48.379 FINE DefaultProcessor: AS2DirectoryPollingModule started.
+2020-10-05 18:39:48.379 FINE DefaultProcessor: AS2DirectoryPollingModule started.
+2020-10-05 18:39:48.379 FINE DefaultProcessor: 12 active module(s) started.
+2020-10-05 18:39:48.379 FINE OpenAS2Server: OpenAS2 Server v2.9.0 started.

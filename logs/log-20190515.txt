@@ -1,0 +1,112 @@
+2019-05-15 19:40:57.522 FINE DefaultProcessor: AS2DirectoryPollingModule stopped.
+2019-05-15 19:40:57.580 FINE DefaultProcessor: AS2DirectoryPollingModule stopped.
+2019-05-15 19:40:57.582 FINE DefaultProcessor: AS2DirectoryPollingModule stopped.
+2019-05-15 19:40:57.754 FINE DefaultProcessor: DbTrackingModule stopped.
+2019-05-15 19:40:57.775 FINE DefaultProcessor: AS2ReceiverModule stopped.
+2019-05-15 19:40:57.780 FINE DefaultProcessor: AS2MDNReceiverModule stopped.
+2019-05-15 19:40:57.782 FINE DefaultProcessor: DirectoryResenderModule stopped.
+2019-05-15 19:40:57.784 FINE DefaultProcessor: 7 active module(s) stopped.
+2019-05-15 19:40:57.786 FINE OpenAS2Server: OpenAS2 has shut down
+
+2019-05-15 19:43:22.275 FINE XMLSession: Loading command processor(s)...
+2019-05-15 19:44:35.275 FINE XMLSession: Loading command processor(s)...
+2019-05-15 19:44:35.714 FINE XMLSession: Loading processor modules...
+2019-05-15 19:44:35.771 FINE OpenAS2Server: Shutdown hook registered.
+2019-05-15 19:44:35.772 FINE OpenAS2Server: Starting OpenAS2 Server v2.9.0...
+2019-05-15 19:44:35.774 FINE DefaultProcessor: AS2DirectoryPollingModule started.
+2019-05-15 19:44:35.777 FINE DefaultProcessor: AS2DirectoryPollingModule started.
+2019-05-15 19:44:35.778 FINE DefaultProcessor: AS2DirectoryPollingModule started.
+2019-05-15 19:44:36.092 FINE DefaultProcessor: DbTrackingModule started.
+2019-05-15 19:44:36.100 FINE DefaultProcessor: AS2ReceiverModule started.
+2019-05-15 19:44:36.101 FINE DefaultProcessor: AS2MDNReceiverModule started.
+2019-05-15 19:44:36.102 FINE DefaultProcessor: DirectoryResenderModule started.
+2019-05-15 19:44:36.104 FINE DefaultProcessor: AS2DirectoryPollingModule started.
+2019-05-15 19:44:36.104 FINE DefaultProcessor: 8 active module(s) started.
+2019-05-15 19:44:36.105 FINE OpenAS2Server: OpenAS2 Server v2.9.0 started.
+2019-05-15 19:47:46.942 FINE DefaultProcessor: AS2DirectoryPollingModule stopped.
+2019-05-15 19:47:46.944 FINE DefaultProcessor: AS2DirectoryPollingModule stopped.
+2019-05-15 19:47:46.946 FINE DefaultProcessor: AS2DirectoryPollingModule stopped.
+2019-05-15 19:47:46.948 FINE DefaultProcessor: DbTrackingModule stopped.
+2019-05-15 19:47:46.949 FINE DefaultProcessor: AS2ReceiverModule stopped.
+2019-05-15 19:47:46.951 FINE DefaultProcessor: AS2MDNReceiverModule stopped.
+2019-05-15 19:47:46.953 FINE DefaultProcessor: DirectoryResenderModule stopped.
+2019-05-15 19:47:46.954 FINE DefaultProcessor: AS2DirectoryPollingModule stopped.
+2019-05-15 19:47:46.955 FINE DefaultProcessor: 8 active module(s) stopped.
+2019-05-15 19:47:46.956 FINE OpenAS2Server: OpenAS2 has shut down
+
+2019-05-15 19:49:10.308 FINE XMLSession: Loading command processor(s)...
+2019-05-15 19:49:10.693 FINE XMLSession: Loading processor modules...
+2019-05-15 19:49:10.771 FINE OpenAS2Server: Shutdown hook registered.
+2019-05-15 19:49:10.776 FINE OpenAS2Server: Starting OpenAS2 Server v2.9.0...
+2019-05-15 19:49:10.780 FINE DefaultProcessor: AS2DirectoryPollingModule started.
+2019-05-15 19:49:10.781 FINE DefaultProcessor: AS2DirectoryPollingModule started.
+2019-05-15 19:49:10.784 FINE DefaultProcessor: AS2DirectoryPollingModule started.
+2019-05-15 19:49:11.104 FINE DefaultProcessor: DbTrackingModule started.
+2019-05-15 19:49:11.112 FINE DefaultProcessor: AS2ReceiverModule started.
+2019-05-15 19:49:11.114 FINE DefaultProcessor: AS2MDNReceiverModule started.
+2019-05-15 19:49:11.115 FINE DefaultProcessor: DirectoryResenderModule started.
+2019-05-15 19:49:11.116 FINE DefaultProcessor: AS2DirectoryPollingModule started.
+2019-05-15 19:49:11.117 FINE DefaultProcessor: 8 active module(s) started.
+2019-05-15 19:49:11.118 FINE OpenAS2Server: OpenAS2 Server v2.9.0 started.
+2019-05-15 19:49:42.167 FINE DefaultProcessor: AS2DirectoryPollingModule stopped.
+2019-05-15 19:49:42.170 FINE DefaultProcessor: AS2DirectoryPollingModule stopped.
+2019-05-15 19:49:42.171 FINE DefaultProcessor: AS2DirectoryPollingModule stopped.
+2019-05-15 19:49:42.175 FINE DefaultProcessor: DbTrackingModule stopped.
+2019-05-15 19:49:42.178 FINE DefaultProcessor: AS2ReceiverModule stopped.
+2019-05-15 19:49:42.179 FINE DefaultProcessor: AS2MDNReceiverModule stopped.
+2019-05-15 19:49:42.181 FINE DefaultProcessor: DirectoryResenderModule stopped.
+2019-05-15 19:49:42.182 FINE DefaultProcessor: AS2DirectoryPollingModule stopped.
+2019-05-15 19:49:42.185 FINE DefaultProcessor: 8 active module(s) stopped.
+2019-05-15 19:49:42.186 FINE OpenAS2Server: OpenAS2 has shut down
+
+2019-05-15 19:51:25.506 FINE XMLSession: Loading command processor(s)...
+2019-05-15 19:51:25.965 FINE XMLSession: Loading processor modules...
+2019-05-15 19:51:26.022 FINE OpenAS2Server: Shutdown hook registered.
+2019-05-15 19:51:26.023 FINE OpenAS2Server: Starting OpenAS2 Server v2.9.0...
+2019-05-15 19:51:26.027 FINE DefaultProcessor: AS2DirectoryPollingModule started.
+2019-05-15 19:51:26.029 FINE DefaultProcessor: AS2DirectoryPollingModule started.
+2019-05-15 19:51:26.030 FINE DefaultProcessor: AS2DirectoryPollingModule started.
+2019-05-15 19:51:26.346 FINE DefaultProcessor: DbTrackingModule started.
+2019-05-15 19:51:26.358 FINE DefaultProcessor: AS2ReceiverModule started.
+2019-05-15 19:51:26.359 FINE DefaultProcessor: AS2MDNReceiverModule started.
+2019-05-15 19:51:26.361 FINE DefaultProcessor: DirectoryResenderModule started.
+2019-05-15 19:51:26.365 FINE DefaultProcessor: AS2DirectoryPollingModule started.
+2019-05-15 19:51:26.366 FINE DefaultProcessor: 8 active module(s) started.
+2019-05-15 19:51:26.368 FINE OpenAS2Server: OpenAS2 Server v2.9.0 started.
+2019-05-15 19:52:05.107 FINE DefaultProcessor: AS2DirectoryPollingModule stopped.
+2019-05-15 19:52:05.110 FINE DefaultProcessor: AS2DirectoryPollingModule stopped.
+2019-05-15 19:52:05.112 FINE DefaultProcessor: AS2DirectoryPollingModule stopped.
+2019-05-15 19:52:05.119 FINE DefaultProcessor: DbTrackingModule stopped.
+2019-05-15 19:52:05.121 FINE DefaultProcessor: AS2ReceiverModule stopped.
+2019-05-15 19:52:05.122 FINE DefaultProcessor: AS2MDNReceiverModule stopped.
+2019-05-15 19:52:05.124 FINE DefaultProcessor: DirectoryResenderModule stopped.
+2019-05-15 19:52:05.127 FINE DefaultProcessor: AS2DirectoryPollingModule stopped.
+2019-05-15 19:52:05.129 FINE DefaultProcessor: 8 active module(s) stopped.
+2019-05-15 19:52:05.130 FINE OpenAS2Server: OpenAS2 has shut down
+
+2019-05-15 19:52:33.064 FINE XMLSession: Loading command processor(s)...
+2019-05-15 19:52:33.587 FINE XMLSession: Loading processor modules...
+2019-05-15 19:52:33.633 FINE IOUtil: Created directory C:\OpenAS2Server\data\US001
+2019-05-15 19:52:33.635 FINE IOUtil: Created directory C:\OpenAS2Server\data\US001\errors
+2019-05-15 19:52:33.663 FINE OpenAS2Server: Shutdown hook registered.
+2019-05-15 19:52:33.666 FINE OpenAS2Server: Starting OpenAS2 Server v2.9.0...
+2019-05-15 19:52:33.669 FINE DefaultProcessor: AS2DirectoryPollingModule started.
+2019-05-15 19:52:33.671 FINE DefaultProcessor: AS2DirectoryPollingModule started.
+2019-05-15 19:52:33.672 FINE DefaultProcessor: AS2DirectoryPollingModule started.
+2019-05-15 19:52:34.033 FINE DefaultProcessor: DbTrackingModule started.
+2019-05-15 19:52:34.041 FINE DefaultProcessor: AS2ReceiverModule started.
+2019-05-15 19:52:34.043 FINE DefaultProcessor: AS2MDNReceiverModule started.
+2019-05-15 19:52:34.044 FINE DefaultProcessor: DirectoryResenderModule started.
+2019-05-15 19:52:34.046 FINE DefaultProcessor: AS2DirectoryPollingModule started.
+2019-05-15 19:52:34.048 FINE DefaultProcessor: 8 active module(s) started.
+2019-05-15 19:52:34.053 FINE OpenAS2Server: OpenAS2 Server v2.9.0 started.
+2019-05-15 19:52:58.049 FINE DirectoryPollingModule: processing C:\OpenAS2Server\data\US001\945_DAYEND_95cee294-ef43-4a03-82b2-e295e1105721.txt
+2019-05-15 19:52:58.186 FINE MessageBuilderModule: File assigned to message: 945_DAYEND_95cee294-ef43-4a03-82b2-e295e1105721.txt [<OPENAS2-15052019195258+0500-629a6661-f6ef-43a9-935e-698a0b819d19@860_IN_US-001_Inbound860_PartnerLink_860_IN_US-001_Inbound860_US-001>]
+2019-05-15 19:52:58.191 FINE AS2SenderModule: message sender invoked [<OPENAS2-15052019195258+0500-629a6661-f6ef-43a9-935e-698a0b819d19@860_IN_US-001_Inbound860_PartnerLink_860_IN_US-001_Inbound860_US-001>]
+2019-05-15 19:52:58.463 FINE AS2SenderModule: Save Original mic & message id information into file: C:\OpenAS2Server\config/../data/pendinginfoMDN3/OPENAS2-15052019195258+0500-629a6661-f6ef-43a9-935e-698a0b819d19@860_IN_US-001_Inbound860_PartnerLink_860_IN_US-001_Inbound860_US-001 [<OPENAS2-15052019195258+0500-629a6661-f6ef-43a9-935e-698a0b819d19@860_IN_US-001_Inbound860_PartnerLink_860_IN_US-001_Inbound860_US-001>]
+2019-05-15 19:52:58.601 FINE AS2SenderModule: Connecting to: http://localhost:9085 [<OPENAS2-15052019195258+0500-629a6661-f6ef-43a9-935e-698a0b819d19@860_IN_US-001_Inbound860_PartnerLink_860_IN_US-001_Inbound860_US-001>]
+2019-05-15 19:52:59.166 FINE AS2SenderModule: Message sent and response received in 376 millisecondsms [<OPENAS2-15052019195258+0500-629a6661-f6ef-43a9-935e-698a0b819d19@860_IN_US-001_Inbound860_PartnerLink_860_IN_US-001_Inbound860_US-001>]
+2019-05-15 19:52:59.234 FINE AS2Util: received MDN [automatic-action/MDN-sent-automatically; processed] [<OPENAS2-15052019195258+0500-629a6661-f6ef-43a9-935e-698a0b819d19@860_IN_US-001_Inbound860_PartnerLink_860_IN_US-001_Inbound860_US-001>]
+2019-05-15 19:52:59.247 FINE IOUtil: Created directory C:\OpenAS2Server\config\..\data\temp
+2019-05-15 19:52:59.254 FINE AS2Util: Message sent and MDN received successfully. [<OPENAS2-15052019195258+0500-629a6661-f6ef-43a9-935e-698a0b819d19@860_IN_US-001_Inbound860_PartnerLink_860_IN_US-001_Inbound860_US-001>]
+2019-05-15 19:52:59.257 FINE AS2Util: deleted C:\OpenAS2Server\config\..\data\pendingMDN3\OPENAS2-15052019195258+0500-629a6661-f6ef-43a9-935e-698a0b819d19@860_IN_US-001_Inbound860_PartnerLink_860_IN_US-001_Inbound860_US-001 [<OPENAS2-15052019195258+0500-629a6661-f6ef-43a9-935e-698a0b819d19@860_IN_US-001_Inbound860_PartnerLink_860_IN_US-001_Inbound860_US-001>]

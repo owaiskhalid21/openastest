@@ -1,0 +1,334 @@
+<partnerships>
+	<partner name="DelMonte_Partenr" as2_id="DelMonte-PartnerLinkAS2" x509_alias="DelMonte-PartnerLinkAS2" email="PLAdmin@partnerlinkedi.com" />
+	<partner name="USFoods_Partenr" as2_id="USFOODSPRD" x509_alias="USFOODSPRD" email="PLAdmin@partnerlinkedi.com" />
+	<partner name="PRICECHOPPER_Partenr" as2_id="PRICECHOPPER" x509_alias="PRICECHOPPER" email="PLAdmin@partnerlinkedi.com" />
+	<partner name="DZA_Partenr" as2_id="DZA" x509_alias="DZA" email="PLAdmin@partnerlinkedi.com" />
+	<partner name="KNIGHT_Partenr" as2_id="KNIGHT" x509_alias="KNIGHT" email="PLAdmin@partnerlinkedi.com" />
+	<partner name="LabottAffiliatedFoods_Partenr" as2_id="EdictSystems" x509_alias="EdictSystems" email="PLAdmin@partnerlinkedi.com" />
+	<partner name="AholdUSA_Partenr" as2_id="0688267000010" x509_alias="0688267000010" email="PLAdmin@partnerlinkedi.com" />
+	<partner name="KLLM_Partenr" as2_id="KLMIAS2" x509_alias="KLMIAS2" email="PLAdmin@partnerlinkedi.com" />
+	<partner name="Kroger_Partenr" as2_id="KROGERAS2TEST" x509_alias="KROGERAS2TEST" email="PLAdmin@partnerlinkedi.com" />
+	<partnership name="TestAs2ToDelMonte">
+		<sender name="DelMonte_Partenr" />
+		<receiver name="DelMonte_Partenr" />
+		<attribute name="protocol" value="as2" />
+		<attribute name="content_transfer_encoding" value="8bit" />
+		<attribute name="compression_type" value="ZLIB" />
+		<attribute name="subject" value="File $attributes.filename$ sent from $sender.name$ to $receiver.name$" />
+		<attribute name="as2_url" value="http://52.188.140.189:9085/" />
+		<attribute name="as2_mdn_to" value="aamir.hussain@partnerlinkedi.com" />
+		<attribute name="as2_mdn_options" value="signed- receipt - protocol=optional, pkcs7 - signature; signed - receipt - micalg=optional, SHA256" />
+		<attribute name="encrypt" value="3DES" />
+		<attribute name="sign" value="SHA256" />
+		<attribute name="resend_max_retries" value="5" />
+		<attribute name="prevent_canonicalization_for_mic" value="false" />
+		<attribute name="no_set_transfer_encoding_for_signing" value="false" />
+		<attribute name="no_set_transfer_encoding_for_encryption" value="false" />
+		<attribute name="rename_digest_to_old_name" value="false" />
+		<attribute name="remove_cms_algorithm_protection_attrib" value="false" />
+	</partnership>
+	<partnership name="USFoodsToDelMonte">
+		<sender name="USFoods_Partenr" />
+		<receiver name="DelMonte_Partenr" />
+		<attribute name="protocol" value="as2" />
+		<attribute name="content_transfer_encoding" value="8bit" />
+		<attribute name="compression_type" value="ZLIB" />
+		<attribute name="subject" value="File $attributes.filename$ sent from $sender.name$ to $receiver.name$" />
+		<attribute name="as2_url" value="http://52.188.140.189:9085/" />
+		<attribute name="as2_mdn_to" value="aamir.hussain@partnerlinkedi.com" />
+		<attribute name="as2_mdn_options" value="signed- receipt - protocol=optional, pkcs7 - signature; signed - receipt - micalg=optional, SHA256" />
+		<attribute name="encrypt" value="3DES" />
+		<attribute name="sign" value="SHA256" />
+		<attribute name="resend_max_retries" value="5" />
+		<attribute name="prevent_canonicalization_for_mic" value="false" />
+		<attribute name="no_set_transfer_encoding_for_signing" value="false" />
+		<attribute name="no_set_transfer_encoding_for_encryption" value="false" />
+		<attribute name="rename_digest_to_old_name" value="false" />
+		<attribute name="remove_cms_algorithm_protection_attrib" value="false" />
+	</partnership>
+	<partnership name="DelMonteToUsFoods">
+		<sender name="DelMonte_Partenr" />
+		<receiver name="USFoods_Partenr" />
+		<attribute name="protocol" value="as2" />
+		<attribute name="content_transfer_encoding" value="8bit" />
+		<attribute name="compression_type" value="ZLIB" />
+		<attribute name="subject" value="File $attributes.filename$ sent from $sender.name$ to $receiver.name$" />
+		<attribute name="as2_url" value="http://ediprod.usfoods.com:10080/AS2" />
+		<attribute name="as2_mdn_to" value="aamir.hussain@partnerlinkedi.com" />
+		<attribute name="as2_mdn_options" value="signed- receipt - protocol=optional, pkcs7 - signature; signed - receipt - micalg=optional, SHA256" />
+		<attribute name="encrypt" value="3DES" />
+		<attribute name="sign" value="SHA256" />
+		<attribute name="resend_max_retries" value="5" />
+		<attribute name="prevent_canonicalization_for_mic" value="false" />
+		<attribute name="no_set_transfer_encoding_for_signing" value="false" />
+		<attribute name="no_set_transfer_encoding_for_encryption" value="false" />
+		<attribute name="rename_digest_to_old_name" value="false" />
+		<attribute name="remove_cms_algorithm_protection_attrib" value="false" />
+	</partnership>
+	<partnership name="PRICECHOPPERToDelMonte">
+		<sender name="PRICECHOPPER_Partenr" />
+		<receiver name="DelMonte_Partenr" />
+		<attribute name="protocol" value="as2" />
+		<attribute name="content_transfer_encoding" value="8bit" />
+		<attribute name="compression_type" value="ZLIB" />
+		<attribute name="subject" value="File $attributes.filename$ sent from $sender.name$ to $receiver.name$" />
+		<attribute name="as2_url" value="http://52.188.140.189:9085/" />
+		<attribute name="as2_mdn_to" value="aamir.hussain@partnerlinkedi.com" />
+		<attribute name="as2_mdn_options" value="signed- receipt - protocol=optional, pkcs7 - signature; signed - receipt - micalg=optional, SHA256" />
+		<attribute name="encrypt" value="3DES" />
+		<attribute name="sign" value="SHA256" />
+		<attribute name="resend_max_retries" value="5" />
+		<attribute name="prevent_canonicalization_for_mic" value="false" />
+		<attribute name="no_set_transfer_encoding_for_signing" value="false" />
+		<attribute name="no_set_transfer_encoding_for_encryption" value="false" />
+		<attribute name="rename_digest_to_old_name" value="false" />
+		<attribute name="remove_cms_algorithm_protection_attrib" value="false" />
+	</partnership>
+	<partnership name="DelMonteToPRICECHOPPER">
+		<sender name="DelMonte_Partenr" />
+		<receiver name="PRICECHOPPER_Partenr" />
+		<attribute name="protocol" value="as2" />
+		<attribute name="content_transfer_encoding" value="8bit" />
+		<attribute name="compression_type" value="ZLIB" />
+		<attribute name="subject" value="File $attributes.filename$ sent from $sender.name$ to $receiver.name$" />
+		<attribute name="as2_url" value="http://as2.golub.com:5080" />
+		<attribute name="as2_mdn_to" value="aamir.hussain@partnerlinkedi.com" />
+		<attribute name="as2_mdn_options" value="signed- receipt - protocol=optional, pkcs7 - signature; signed - receipt - micalg=optional, SHA256" />
+		<attribute name="encrypt" value="3DES" />
+		<attribute name="sign" value="SHA256" />
+		<attribute name="resend_max_retries" value="5" />
+		<attribute name="prevent_canonicalization_for_mic" value="false" />
+		<attribute name="no_set_transfer_encoding_for_signing" value="false" />
+		<attribute name="no_set_transfer_encoding_for_encryption" value="false" />
+		<attribute name="rename_digest_to_old_name" value="false" />
+		<attribute name="remove_cms_algorithm_protection_attrib" value="false" />
+	</partnership>
+	<partnership name="DZAToDelMonte">
+		<sender name="DZA_Partenr" />
+		<receiver name="DelMonte_Partenr" />
+		<attribute name="protocol" value="as2" />
+		<attribute name="content_transfer_encoding" value="8bit" />
+		<attribute name="compression_type" value="ZLIB" />
+		<attribute name="subject" value="File $attributes.filename$ sent from $sender.name$ to $receiver.name$" />
+		<attribute name="as2_url" value="http://52.188.140.189:9085/" />
+		<attribute name="as2_mdn_to" value="aamir.hussain@partnerlinkedi.com" />
+		<attribute name="as2_mdn_options" value="signed- receipt - protocol=optional, pkcs7 - signature; signed - receipt - micalg=optional, SHA256" />
+		<attribute name="encrypt" value="3DES" />
+		<attribute name="sign" value="SHA256" />
+		<attribute name="resend_max_retries" value="5" />
+		<attribute name="prevent_canonicalization_for_mic" value="false" />
+		<attribute name="no_set_transfer_encoding_for_signing" value="false" />
+		<attribute name="no_set_transfer_encoding_for_encryption" value="false" />
+		<attribute name="rename_digest_to_old_name" value="false" />
+		<attribute name="remove_cms_algorithm_protection_attrib" value="false" />
+	</partnership>
+	<partnership name="DelMonteToDZA">
+		<sender name="DelMonte_Partenr" />
+		<receiver name="DZA_Partenr" />
+		<attribute name="protocol" value="as2" />
+		<attribute name="content_transfer_encoding" value="8bit" />
+		<attribute name="compression_type" value="ZLIB" />
+		<attribute name="subject" value="File $attributes.filename$ sent from $sender.name$ to $receiver.name$" />
+		<attribute name="as2_url" value="http://ebpg.delhaize.com:4080/exchange/DZA" />
+		<attribute name="as2_mdn_to" value="aamir.hussain@partnerlinkedi.com" />
+		<attribute name="as2_mdn_options" value="signed- receipt - protocol=optional, pkcs7 - signature; signed - receipt - micalg=optional, SHA256" />
+		<attribute name="encrypt" value="3DES" />
+		<attribute name="sign" value="SHA256" />
+		<attribute name="resend_max_retries" value="5" />
+		<attribute name="prevent_canonicalization_for_mic" value="false" />
+		<attribute name="no_set_transfer_encoding_for_signing" value="false" />
+		<attribute name="no_set_transfer_encoding_for_encryption" value="false" />
+		<attribute name="rename_digest_to_old_name" value="false" />
+		<attribute name="remove_cms_algorithm_protection_attrib" value="false" />
+	</partnership>
+	<partnership name="KNIGHTToDelMonte">
+		<sender name="KNIGHT_Partenr" />
+		<receiver name="DelMonte_Partenr" />
+		<attribute name="protocol" value="as2" />
+		<attribute name="content_transfer_encoding" value="8bit" />
+		<attribute name="compression_type" value="ZLIB" />
+		<attribute name="subject" value="File $attributes.filename$ sent from $sender.name$ to $receiver.name$" />
+		<attribute name="as2_url" value="http://52.188.140.189:9085/" />
+		<attribute name="as2_mdn_to" value="aamir.hussain@partnerlinkedi.com" />
+		<attribute name="as2_mdn_options" value="signed- receipt - protocol=optional, pkcs7 - signature; signed - receipt - micalg=optional, SHA256" />
+		<attribute name="encrypt" value="3DES" />
+		<attribute name="sign" value="SHA256" />
+		<attribute name="resend_max_retries" value="5" />
+		<attribute name="prevent_canonicalization_for_mic" value="false" />
+		<attribute name="no_set_transfer_encoding_for_signing" value="false" />
+		<attribute name="no_set_transfer_encoding_for_encryption" value="false" />
+		<attribute name="rename_digest_to_old_name" value="false" />
+		<attribute name="remove_cms_algorithm_protection_attrib" value="false" />
+	</partnership>
+	<partnership name="DelMonteToKNIGHT">
+		<sender name="DelMonte_Partenr" />
+		<receiver name="KNIGHT_Partenr" />
+		<attribute name="protocol" value="as2" />
+		<attribute name="content_transfer_encoding" value="8bit" />
+		<attribute name="compression_type" value="ZLIB" />
+		<attribute name="subject" value="File $attributes.filename$ sent from $sender.name$ to $receiver.name$" />
+		<attribute name="as2_url" value="http://ktsi-dev.knighttrans.com/as2" />
+		<attribute name="as2_mdn_to" value="aamir.hussain@partnerlinkedi.com" />
+		<attribute name="as2_mdn_options" value="signed- receipt - protocol=optional, pkcs7 - signature; signed - receipt - micalg=optional, SHA256" />
+		<attribute name="encrypt" value="3DES" />
+		<attribute name="sign" value="SHA256" />
+		<attribute name="resend_max_retries" value="5" />
+		<attribute name="prevent_canonicalization_for_mic" value="false" />
+		<attribute name="no_set_transfer_encoding_for_signing" value="false" />
+		<attribute name="no_set_transfer_encoding_for_encryption" value="false" />
+		<attribute name="rename_digest_to_old_name" value="false" />
+		<attribute name="remove_cms_algorithm_protection_attrib" value="false" />
+	</partnership>
+	<partnership name="AffiliatedFoodsToDelMonte">
+		<sender name="LabottAffiliatedFoods_Partenr" />
+		<receiver name="DelMonte_Partenr" />
+		<attribute name="protocol" value="as2" />
+		<attribute name="content_transfer_encoding" value="8bit" />
+		<attribute name="compression_type" value="ZLIB" />
+		<attribute name="subject" value="File $attributes.filename$ sent from $sender.name$ to $receiver.name$" />
+		<attribute name="as2_url" value="http://52.188.140.189:9085/" />
+		<attribute name="as2_mdn_to" value="aamir.hussain@partnerlinkedi.com" />
+		<attribute name="as2_mdn_options" value="signed- receipt - protocol=optional, pkcs7 - signature; signed - receipt - micalg=optional, SHA256" />
+		<attribute name="encrypt" value="3DES" />
+		<attribute name="sign" value="SHA256" />
+		<attribute name="resend_max_retries" value="5" />
+		<attribute name="prevent_canonicalization_for_mic" value="false" />
+		<attribute name="no_set_transfer_encoding_for_signing" value="false" />
+		<attribute name="no_set_transfer_encoding_for_encryption" value="false" />
+		<attribute name="rename_digest_to_old_name" value="false" />
+		<attribute name="remove_cms_algorithm_protection_attrib" value="false" />
+	</partnership>
+	<partnership name="DelMonteToAffiliatedFoods">
+		<sender name="DelMonte_Partenr" />
+		<receiver name="LabottAffiliatedFoods_Partenr" />
+		<attribute name="protocol" value="as2" />
+		<attribute name="content_transfer_encoding" value="8bit" />
+		<attribute name="compression_type" value="ZLIB" />
+		<attribute name="subject" value="File $attributes.filename$ sent from $sender.name$ to $receiver.name$" />
+		<attribute name="as2_url" value="http://as2.enterpriseec.com:4080/as2receiver/default.aspx" />
+		<attribute name="as2_mdn_to" value="aamir.hussain@partnerlinkedi.com" />
+		<attribute name="as2_mdn_options" value="signed- receipt - protocol=optional, pkcs7 - signature; signed - receipt - micalg=optional, SHA256" />
+		<attribute name="encrypt" value="3DES" />
+		<attribute name="sign" value="SHA256" />
+		<attribute name="resend_max_retries" value="5" />
+		<attribute name="prevent_canonicalization_for_mic" value="false" />
+		<attribute name="no_set_transfer_encoding_for_signing" value="false" />
+		<attribute name="no_set_transfer_encoding_for_encryption" value="false" />
+		<attribute name="rename_digest_to_old_name" value="false" />
+		<attribute name="remove_cms_algorithm_protection_attrib" value="false" />
+	</partnership>
+	<partnership name="AholdUSAToDelMonte">
+		<sender name="AholdUSA_Partenr" />
+		<receiver name="DelMonte_Partenr" />
+		<attribute name="protocol" value="as2" />
+		<attribute name="content_transfer_encoding" value="8bit" />
+		<attribute name="compression_type" value="ZLIB" />
+		<attribute name="subject" value="File $attributes.filename$ sent from $sender.name$ to $receiver.name$" />
+		<attribute name="as2_url" value="http://52.188.140.189:9085/" />
+		<attribute name="as2_mdn_to" value="aamir.hussain@partnerlinkedi.com" />
+		<attribute name="as2_mdn_options" value="signed- receipt - protocol=optional, pkcs7 - signature; signed - receipt - micalg=optional, SHA256" />
+		<attribute name="encrypt" value="3DES" />
+		<attribute name="sign" value="SHA256" />
+		<attribute name="resend_max_retries" value="5" />
+		<attribute name="prevent_canonicalization_for_mic" value="false" />
+		<attribute name="no_set_transfer_encoding_for_signing" value="false" />
+		<attribute name="no_set_transfer_encoding_for_encryption" value="false" />
+		<attribute name="rename_digest_to_old_name" value="false" />
+		<attribute name="remove_cms_algorithm_protection_attrib" value="false" />
+	</partnership>
+	<partnership name="DelMonteToAholdUSA">
+		<sender name="DelMonte_Partenr" />
+		<receiver name="AholdUSA_Partenr" />
+		<attribute name="protocol" value="as2" />
+		<attribute name="content_transfer_encoding" value="8bit" />
+		<attribute name="compression_type" value="ZLIB" />
+		<attribute name="subject" value="File $attributes.filename$ sent from $sender.name$ to $receiver.name$" />
+		<attribute name="as2_url" value="http://161.247.133.180:8080/b2bhttp/inbound/as2" />
+		<attribute name="as2_mdn_to" value="aamir.hussain@partnerlinkedi.com" />
+		<attribute name="as2_mdn_options" value="signed- receipt - protocol=optional, pkcs7 - signature; signed - receipt - micalg=optional, SHA256" />
+		<attribute name="encrypt" value="3DES" />
+		<attribute name="sign" value="SHA256" />
+		<attribute name="resend_max_retries" value="5" />
+		<attribute name="prevent_canonicalization_for_mic" value="false" />
+		<attribute name="no_set_transfer_encoding_for_signing" value="false" />
+		<attribute name="no_set_transfer_encoding_for_encryption" value="false" />
+		<attribute name="rename_digest_to_old_name" value="false" />
+		<attribute name="remove_cms_algorithm_protection_attrib" value="false" />
+	</partnership>
+	<partnership name="KLLMToDelMonte">
+		<sender name="KLLM_Partenr" />
+		<receiver name="DelMonte_Partenr" />
+		<attribute name="protocol" value="as2" />
+		<attribute name="content_transfer_encoding" value="8bit" />
+		<attribute name="compression_type" value="ZLIB" />
+		<attribute name="subject" value="File $attributes.filename$ sent from $sender.name$ to $receiver.name$" />
+		<attribute name="as2_url" value="http://52.188.140.189:9085/" />
+		<attribute name="as2_mdn_to" value="aamir.hussain@partnerlinkedi.com" />
+		<attribute name="as2_mdn_options" value="signed- receipt - protocol=optional, pkcs7 - signature; signed - receipt - micalg=optional, SHA256" />
+		<attribute name="encrypt" value="3DES" />
+		<attribute name="sign" value="SHA256" />
+		<attribute name="resend_max_retries" value="5" />
+		<attribute name="prevent_canonicalization_for_mic" value="false" />
+		<attribute name="no_set_transfer_encoding_for_signing" value="false" />
+		<attribute name="no_set_transfer_encoding_for_encryption" value="false" />
+		<attribute name="rename_digest_to_old_name" value="false" />
+		<attribute name="remove_cms_algorithm_protection_attrib" value="false" />
+	</partnership>
+	<partnership name="DelMonteToKLLM">
+		<sender name="DelMonte_Partenr" />
+		<receiver name="KLLM_Partenr" />
+		<attribute name="protocol" value="as2" />
+		<attribute name="content_transfer_encoding" value="8bit" />
+		<attribute name="compression_type" value="ZLIB" />
+		<attribute name="subject" value="File $attributes.filename$ sent from $sender.name$ to $receiver.name$" />
+		<attribute name="as2_url" value="http://12.48.254.160:5080" />
+		<attribute name="as2_mdn_to" value="aamir.hussain@partnerlinkedi.com" />
+		<attribute name="as2_mdn_options" value="signed- receipt - protocol=optional, pkcs7 - signature; signed - receipt - micalg=optional, SHA256" />
+		<attribute name="encrypt" value="3DES" />
+		<attribute name="sign" value="SHA256" />
+		<attribute name="resend_max_retries" value="5" />
+		<attribute name="prevent_canonicalization_for_mic" value="false" />
+		<attribute name="no_set_transfer_encoding_for_signing" value="false" />
+		<attribute name="no_set_transfer_encoding_for_encryption" value="false" />
+		<attribute name="rename_digest_to_old_name" value="false" />
+		<attribute name="remove_cms_algorithm_protection_attrib" value="false" />
+	</partnership>
+	<partnership name="KrogerToDelMonte">
+		<sender name="Kroger_Partenr" />
+		<receiver name="DelMonte_Partenr" />
+		<attribute name="protocol" value="as2" />
+		<attribute name="content_transfer_encoding" value="8bit" />
+		<attribute name="compression_type" value="ZLIB" />
+		<attribute name="subject" value="File $attributes.filename$ sent from $sender.name$ to $receiver.name$" />
+		<attribute name="as2_url" value="http://52.188.140.189:9085/" />
+		<attribute name="as2_mdn_to" value="aamir.hussain@partnerlinkedi.com" />
+		<attribute name="as2_mdn_options" value="signed- receipt - protocol=optional, pkcs7 - signature; signed - receipt - micalg=optional, SHA256" />
+		<attribute name="encrypt" value="3DES" />
+		<attribute name="sign" value="SHA256" />
+		<attribute name="resend_max_retries" value="5" />
+		<attribute name="prevent_canonicalization_for_mic" value="false" />
+		<attribute name="no_set_transfer_encoding_for_signing" value="false" />
+		<attribute name="no_set_transfer_encoding_for_encryption" value="false" />
+		<attribute name="rename_digest_to_old_name" value="false" />
+		<attribute name="remove_cms_algorithm_protection_attrib" value="false" />
+	</partnership>
+	<partnership name="DelMonteToKroger">
+		<sender name="DelMonte_Partenr" />
+		<receiver name="Kroger_Partenr" />
+		<attribute name="protocol" value="as2" />
+		<attribute name="content_transfer_encoding" value="8bit" />
+		<attribute name="compression_type" value="ZLIB" />
+		<attribute name="subject" value="File $attributes.filename$ sent from $sender.name$ to $receiver.name$" />
+		<attribute name="as2_url" value="http://b2b-exchange-test.kroger.com:80" />
+		<attribute name="as2_mdn_to" value="aamir.hussain@partnerlinkedi.com" />
+		<attribute name="as2_mdn_options" value="signed- receipt - protocol=optional, pkcs7 - signature; signed - receipt - micalg=optional, SHA256" />
+		<attribute name="encrypt" value="3DES" />
+		<attribute name="sign" value="SHA256" />
+		<attribute name="resend_max_retries" value="5" />
+		<attribute name="prevent_canonicalization_for_mic" value="false" />
+		<attribute name="no_set_transfer_encoding_for_signing" value="false" />
+		<attribute name="no_set_transfer_encoding_for_encryption" value="false" />
+		<attribute name="rename_digest_to_old_name" value="false" />
+		<attribute name="remove_cms_algorithm_protection_attrib" value="false" />
+	</partnership>
+</partnerships>

@@ -1,0 +1,15 @@
+2020-09-30 17:50:36.822 FINE XMLSession: Loading command processor(s)...
+2020-09-30 17:50:37.138 FINE XMLSession: Loading processor modules...
+2020-09-30 17:50:37.154 FINE IOUtil: Created directory D:\Data\PartnerLink\Docker Work\OpenAS2Server\test\errors
+2020-09-30 17:50:37.162 FINE OpenAS2Server: Shutdown hook registered.
+2020-09-30 17:50:37.163 FINE OpenAS2Server: Starting OpenAS2 Server v2.9.0...
+2020-09-30 17:50:37.164 FINE DefaultProcessor: AS2DirectoryPollingModule started.
+2020-09-30 17:50:37.164 FINE DefaultProcessor: AS2DirectoryPollingModule started.
+2020-09-30 17:50:37.165 FINE DefaultProcessor: AS2DirectoryPollingModule started.
+2020-09-30 17:50:37.299 FINE DefaultProcessor: DbTrackingModule started.
+2020-09-30 17:50:37.304 FINE DefaultProcessor: AS2ReceiverModule started.
+2020-09-30 17:50:37.305 FINE DefaultProcessor: AS2MDNReceiverModule started.
+2020-09-30 17:50:37.305 FINE DefaultProcessor: DirectoryResenderModule started.
+2020-09-30 17:50:37.306 FINE DefaultProcessor: AS2DirectoryPollingModule started.
+2020-09-30 17:50:37.306 FINE DefaultProcessor: 8 active module(s) started.
+2020-09-30 17:50:37.306 FINE OpenAS2Server: OpenAS2 Server v2.9.0 started.
